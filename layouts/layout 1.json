@@ -56,7 +56,7 @@
 								"max-speed": 200,
 								"acceleration": 600,
 								"deceleration": 500,
-								"directions": "dir-8",
+								"directions": "dir-4",
 								"set-angle": "smooth",
 								"default-controls": true,
 								"enabled": true
@@ -74,10 +74,10 @@
 						}
 					},
 					"world": {
-						"x": 265,
-						"y": 310,
-						"width": 108,
-						"height": 103,
+						"x": 221,
+						"y": 275,
+						"width": 256,
+						"height": 256,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
