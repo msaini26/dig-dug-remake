@@ -40,8 +40,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "EightDir",
-			"name": "8 Direction",
+			"id": "TileMovement",
+			"name": "Tile movement",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false

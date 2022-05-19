@@ -11,9 +11,14 @@
 			"sid": 207697207475088
 		},
 		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 666170955444647
+			"behaviorId": "TileMovement",
+			"name": "TileMovement",
+			"sid": 143864409193999
+		},
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 411037830082532
 		}
 	],
 	"effectTypes": [],
