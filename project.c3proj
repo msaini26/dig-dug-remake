@@ -9,7 +9,7 @@
 		{
 			"type": "plugin",
 			"id": "TiledBg",
-			"name": "平铺背景",
+			"name": "Tiled Background",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -33,7 +33,7 @@
 		{
 			"type": "behavior",
 			"id": "EightDir",
-			"name": "8方向",
+			"name": "8 Direction",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -41,7 +41,7 @@
 		{
 			"type": "behavior",
 			"id": "scrollto",
-			"name": "视野跟随",
+			"name": "Scroll To",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -49,7 +49,7 @@
 		{
 			"type": "behavior",
 			"id": "bound",
-			"name": "边界约束",
+			"name": "Bound to layout",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -57,7 +57,7 @@
 		{
 			"type": "behavior",
 			"id": "Bullet",
-			"name": "子弹",
+			"name": "Bullet",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -65,7 +65,7 @@
 		{
 			"type": "behavior",
 			"id": "destroy",
-			"name": "出界销毁",
+			"name": "Destroy outside layout",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false

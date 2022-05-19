@@ -74,10 +74,10 @@
 						}
 					},
 					"world": {
-						"x": 265,
-						"y": 310,
-						"width": 108,
-						"height": 103,
+						"x": 216,
+						"y": 348.5,
+						"width": 206,
+						"height": 180,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -172,7 +172,58 @@
 						"x": 411,
 						"y": 276,
 						"width": 256,
-						"height": 256,
+						"height": 255.99999999999997,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "smooth",
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
+					"world": {
+						"x": 397,
+						"y": 527,
+						"width": 184,
+						"height": 169,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
