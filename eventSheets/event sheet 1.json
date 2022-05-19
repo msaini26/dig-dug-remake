@@ -56,6 +56,27 @@
 				}
 			],
 			"sid": 248366337301565
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "asteroid",
+					"sid": 356595934549577,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 807177706406448
+				}
+			],
+			"sid": 165874943266852
 		}
 	],
 	"sid": 201947246964992
