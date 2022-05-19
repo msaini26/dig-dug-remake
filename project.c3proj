@@ -77,8 +77,7 @@
 			"TiledBackground",
 			"Player",
 			"Bullet",
-			"Mouse",
-			"Heart"
+			"Mouse"
 		],
 		"subfolders": []
 	},
