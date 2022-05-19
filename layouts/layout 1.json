@@ -135,11 +135,7 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "Player",
-=======
-					"type": "Sprite",
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -149,7 +145,6 @@
 					},
 					"uid": 6,
 					"instanceVariables": {},
-<<<<<<< Updated upstream
 					"behaviors": {
 						"8Direction": {
 							"properties": {
@@ -178,14 +173,6 @@
 						"y": 276,
 						"width": 256,
 						"height": 256,
-=======
-					"behaviors": {},
-					"world": {
-						"x": 555,
-						"y": 449,
-						"width": 362,
-						"height": 420,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
