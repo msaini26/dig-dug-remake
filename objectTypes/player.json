@@ -6,19 +6,14 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 261638411368011
-		},
-		{
-			"behaviorId": "scrollto",
-			"name": "ScrollTo",
-			"sid": 585515588396605
-		},
-		{
 			"behaviorId": "bound",
 			"name": "BoundToLayout",
 			"sid": 207697207475088
+		},
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 666170955444647
 		}
 	],
 	"effectTypes": [],
@@ -27,14 +22,14 @@
 			{
 				"frames": [
 					{
-						"width": 108,
-						"height": 103,
+						"width": 256,
+						"height": 256,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3917630,
+						"imageSpriteId": 5389356,
 						"collisionPoly": {
 							"points": [
 								0.23148148148148148,

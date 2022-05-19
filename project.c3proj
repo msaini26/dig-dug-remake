@@ -32,24 +32,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "EightDir",
-			"name": "8 Direction",
-			"author": "Scirra",
-			"version": "r293.3",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "scrollto",
-			"name": "Scroll To",
-			"author": "Scirra",
-			"version": "r293.3",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "bound",
 			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -78,8 +70,6 @@
 			"Player",
 			"Bullet",
 			"Mouse",
-			"Sprite",
-			"Sprite2",
 			"heart3"
 		],
 		"subfolders": []
