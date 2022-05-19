@@ -40,16 +40,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "TileMovement",
-			"name": "Tile movement",
-			"author": "Scirra",
-			"version": "r293.3",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Pathfinding",
+			"id": "Pin",
+			"name": "Pin",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -69,6 +61,14 @@
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "TileMovement",
+			"name": "Tile movement",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
 		}
 	],
 	"uniqueId": "n2i30diet08",
@@ -78,7 +78,9 @@
 			"Player",
 			"Bullet",
 			"Mouse",
-			"heart3"
+			"heart3",
+			"asteroid",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -90,7 +92,7 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Dig Dug Levels"
 		],
 		"subfolders": []
 	},

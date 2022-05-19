@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "Dig Dug Levels",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -84,6 +84,107 @@
 					}
 				},
 				{
+					"type": "heart3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 429,
+						"y": 412,
+						"width": 34.44138714415331,
+						"height": 31.265940102493783,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "asteroid",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 346,
+						"y": 241,
+						"width": 81.77352316556437,
+						"height": 64.250625344372,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {
+						"TileMovement": {
+							"properties": {
+								"grid-width": 32,
+								"grid-height": 32,
+								"grid-offset-x": 0,
+								"grid-offset-y": 0,
+								"speed-x": 100,
+								"speed-y": 100,
+								"enabled": true,
+								"default-controls": true,
+								"isometric": false
+							}
+						}
+					},
+					"world": {
+						"x": 511.58391080042975,
+						"y": 95.58841003218271,
+						"width": 32,
+						"height": 32,
+						"originX": 0.004,
+						"originY": 0.004,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
@@ -100,70 +201,19 @@
 								"bound-by": "edge"
 							}
 						},
-						"TileMovement": {
+						"Pin": {
 							"properties": {
-								"grid-width": 32,
-								"grid-height": 32,
-								"grid-offset-x": 0,
-								"grid-offset-y": 0,
-								"speed-x": 100,
-								"speed-y": 100,
-								"enabled": true,
-								"default-controls": true,
-								"isometric": false
-							}
-						},
-						"Pathfinding": {
-							"properties": {
-								"cell-size": 30,
-								"cell-border": -1,
-								"obstacles": "solids",
-								"max-speed": 200,
-								"acceleration": 1000,
-								"deceleration": 2000,
-								"rotate-speed": 135,
-								"rotate-object": true,
-								"diagonals": true,
-								"enabled": true
+								"destroy": false
 							}
 						}
 					},
 					"world": {
-						"x": 780,
-						"y": 79,
-						"width": 139.898204267199,
-						"height": 125.07316072619676,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "heart3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 9,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 591,
-						"y": 264,
-						"width": 34.44138714415331,
-						"height": 31.265940102493783,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 534.0771304730198,
+						"y": 108.13623411611721,
+						"width": 50.78125,
+						"height": 50.78125,
+						"originX": 0.5230769230769231,
+						"originY": 0.5846153846153846,
 						"color": [
 							1,
 							1,
