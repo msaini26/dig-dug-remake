@@ -78,7 +78,8 @@
 			"Player",
 			"Bullet",
 			"Mouse",
-			"Heart"
+			"Heart",
+			"Sprite"
 		],
 		"subfolders": []
 	},
