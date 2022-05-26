@@ -5,9 +5,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "key-is-down",
+					"id": "on-key-released",
 					"objectClass": "Keyboard",
-					"sid": 707001302160778,
+					"sid": 701448752503738,
 					"parameters": {
 						"key": 32
 					}
@@ -17,11 +17,11 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Player",
-					"sid": 153779488199942,
+					"sid": 857220488212934,
 					"parameters": {
 						"object": "Bullet",
 						"layer": "0",
-						"image-point": "1",
+						"image-point": "0",
 						"create-hierarchy": false
 					}
 				},
@@ -268,6 +268,76 @@
 				}
 			],
 			"sid": 293869099033761
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 258020989611776,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 715616484643756,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 358277696181973
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 408956154915979,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 266143141689740,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 454927713813204
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player",
+					"sid": 736124106989535
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Bullet",
+					"sid": 129682437660355,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 475459659637702
 		}
 	],
 	"sid": 201947246964992
