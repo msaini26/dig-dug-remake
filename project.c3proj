@@ -48,16 +48,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "bound",
-			"name": "Bound to layout",
+			"id": "Pin",
+			"name": "Pin",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Pin",
-			"name": "Pin",
+			"id": "bound",
+			"name": "Bound to layout",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -74,6 +74,22 @@
 			"type": "behavior",
 			"id": "destroy",
 			"name": "Destroy outside layout",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false

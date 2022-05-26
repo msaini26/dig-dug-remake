@@ -6,14 +6,14 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "bound",
-			"name": "BoundToLayout",
-			"sid": 207697207475088
-		},
-		{
 			"behaviorId": "Pin",
 			"name": "Pin",
 			"sid": 698632726085051
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 269860696675102
 		}
 	],
 	"effectTypes": [],

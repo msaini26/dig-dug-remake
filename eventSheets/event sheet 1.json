@@ -461,6 +461,152 @@
 				}
 			],
 			"sid": 524403000176687
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 932569171219827,
+					"parameters": {
+						"interval-seconds": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-obstacle",
+					"objectClass": "asteroid",
+					"sid": 968491032905848,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"obstacle": "Sprite4"
+					}
+				},
+				{
+					"id": "add-obstacle",
+					"objectClass": "asteroid",
+					"sid": 764590353405237,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"obstacle": "Sprite3"
+					}
+				},
+				{
+					"id": "add-obstacle",
+					"objectClass": "asteroid",
+					"sid": 509530504858701,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"obstacle": "Sprite2"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "asteroid",
+					"sid": 233476328162210,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "Player.X",
+						"y": "Player.Y"
+					}
+				}
+			],
+			"sid": 623688391000823
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "asteroid",
+					"sid": 300004255378041,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "asteroid",
+					"sid": 717247792048974,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 933570074090158
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 450155414380832,
+					"parameters": {
+						"interval-seconds": "10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-obstacle",
+					"objectClass": "Sprite2",
+					"sid": 820853000226140,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"obstacle": "asteroid"
+					}
+				},
+				{
+					"id": "add-obstacle",
+					"objectClass": "Sprite2",
+					"sid": 694852577162234,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"obstacle": "Sprite3"
+					}
+				},
+				{
+					"id": "add-obstacle",
+					"objectClass": "Sprite2",
+					"sid": 151721586082573,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"obstacle": "Sprite4"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "Sprite2",
+					"sid": 331716470273841,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "Player.X",
+						"y": "Player.Y"
+					}
+				}
+			],
+			"sid": 352644128885369
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "Sprite2",
+					"sid": 934265083155116,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "Sprite2",
+					"sid": 409396934356732,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 265348315643728
 		}
 	],
 	"sid": 201947246964992

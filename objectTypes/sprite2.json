@@ -4,7 +4,23 @@
 	"sid": 656021049563805,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 480255653645674
+		},
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 513361313612906
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 434133246149855
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
