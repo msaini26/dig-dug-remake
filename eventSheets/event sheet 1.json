@@ -435,6 +435,32 @@
 				}
 			],
 			"sid": 475459659637702
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "Player",
+					"sid": 958026504977327
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 775805072218416,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 321638697357744
+				}
+			],
+			"sid": 524403000176687
 		}
 	],
 	"sid": 201947246964992
