@@ -274,7 +274,7 @@
 			1,
 			0
 		],
-		"orientations": "landscape",
+		"orientations": "portrait",
 		"webgpu": "auto",
 		"gpuPreference": "high-performance",
 		"scriptsType": "module",
@@ -286,11 +286,11 @@
 		"anisotropicFiltering": "auto",
 		"maxSpriteSheetSize": 2048,
 		"loaderStyle": "splash",
-		"preloadSounds": true,
+		"preloadSounds": false,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 450,
+	"viewportHeight": 600,
 	"firstLayout": null
 }
