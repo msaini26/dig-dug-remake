@@ -150,6 +150,38 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "gameover.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 228252380588134,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Treasure.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 496400159297544,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Collision2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 246309808237014,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Collision.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 357484601637396,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []

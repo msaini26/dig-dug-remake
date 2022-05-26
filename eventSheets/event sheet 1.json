@@ -28,10 +28,10 @@
 				{
 					"id": "play",
 					"objectClass": "Backgroundmusic",
-					"sid": 113568031682566,
+					"sid": 155118180590784,
 					"parameters": {
 						"audio-file": "mixkit-quick-jump-arcade-game-239",
-						"loop": "looping",
+						"loop": "not-looping",
 						"volume": "0",
 						"tag-optional": "\"\""
 					}
@@ -104,10 +104,10 @@
 				{
 					"id": "play",
 					"objectClass": "Backgroundmusic",
-					"sid": 324067930352648,
+					"sid": 983001771750179,
 					"parameters": {
-						"audio-file": "mixkit-game-level-completed-2059",
-						"loop": "looping",
+						"audio-file": "gameover",
+						"loop": "not-looping",
 						"volume": "0",
 						"tag-optional": "\"\""
 					}
@@ -144,6 +144,17 @@
 					"id": "destroy",
 					"objectClass": "asteroid",
 					"sid": 218107700263587
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 302106889839127,
+					"parameters": {
+						"audio-file": "Collision2",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 771868593189125
@@ -170,6 +181,17 @@
 					"id": "destroy",
 					"objectClass": "life3",
 					"sid": 414873270466185
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 293826693852611,
+					"parameters": {
+						"audio-file": "gameover",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 558964956804092
@@ -191,6 +213,17 @@
 					"id": "destroy",
 					"objectClass": "Sprite2",
 					"sid": 503139770157275
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 242401718449679,
+					"parameters": {
+						"audio-file": "Treasure",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 876964054719286
@@ -217,6 +250,17 @@
 					"id": "destroy",
 					"objectClass": "life3",
 					"sid": 248118587898869
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 638362324107801,
+					"parameters": {
+						"audio-file": "gameover",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 652540039329282
@@ -238,6 +282,17 @@
 					"id": "destroy",
 					"objectClass": "Sprite3",
 					"sid": 687145411054686
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 105064756727722,
+					"parameters": {
+						"audio-file": "Treasure",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 201606627143608
@@ -264,6 +319,17 @@
 					"id": "destroy",
 					"objectClass": "life3",
 					"sid": 154804423584206
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 863907315201193,
+					"parameters": {
+						"audio-file": "gameover",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 610261124239810
@@ -285,6 +351,17 @@
 					"id": "destroy",
 					"objectClass": "Sprite4",
 					"sid": 990331622724716
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 452597020116827,
+					"parameters": {
+						"audio-file": "Treasure",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 293869099033761
