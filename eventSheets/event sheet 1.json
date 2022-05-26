@@ -25,6 +25,17 @@
 						"image-point": "1",
 						"create-hierarchy": false
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 113568031682566,
+					"parameters": {
+						"audio-file": "mixkit-quick-jump-arcade-game-239",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 101767968894594
@@ -53,6 +64,17 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 808195840330072,
+					"parameters": {
+						"audio-file": "Fluffing-a-Duck",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 248366337301565
@@ -74,9 +96,179 @@
 					"id": "destroy",
 					"objectClass": "Player",
 					"sid": 807177706406448
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 324067930352648,
+					"parameters": {
+						"audio-file": "mixkit-game-level-completed-2059",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 165874943266852
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-any-playing",
+					"objectClass": "Backgroundmusic",
+					"sid": 464648105683833
+				}
+			],
+			"actions": [],
+			"sid": 721378519171475
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "asteroid",
+					"sid": 274173081761715,
+					"parameters": {
+						"object": "Bullet"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "asteroid",
+					"sid": 218107700263587
+				}
+			],
+			"sid": 771868593189125
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 776329068449141,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 979456634219242
+				}
+			],
+			"sid": 558964956804092
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 220324262588036,
+					"parameters": {
+						"object": "Bullet"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite2",
+					"sid": 503139770157275
+				}
+			],
+			"sid": 876964054719286
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 398865651199520,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 706348197736150
+				}
+			],
+			"sid": 652540039329282
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 185608304186325,
+					"parameters": {
+						"object": "Bullet"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite3",
+					"sid": 687145411054686
+				}
+			],
+			"sid": 201606627143608
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 107098068913446,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Player",
+					"sid": 523195473525941
+				}
+			],
+			"sid": 610261124239810
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 319186767186027,
+					"parameters": {
+						"object": "Bullet"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite4",
+					"sid": 990331622724716
+				}
+			],
+			"sid": 293869099033761
 		}
 	],
 	"sid": 201947246964992

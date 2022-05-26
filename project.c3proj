@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r293.3",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "bound",
 			"name": "Bound to layout",
@@ -80,7 +88,14 @@
 			"Mouse",
 			"heart3",
 			"asteroid",
-			"Sprite"
+			"Sprite",
+			"Backgroundmusic",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"Sprite7",
+			"Sprite8",
+			"TiledBackground2"
 		],
 		"subfolders": []
 	},
@@ -108,11 +123,37 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "mixkit-game-level-completed-2059.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 674370097609456,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "mixkit-quick-jump-arcade-game-239.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 643955548835579,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "Fluffing-a-Duck.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 582261766612924,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

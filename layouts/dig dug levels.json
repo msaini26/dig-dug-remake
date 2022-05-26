@@ -96,8 +96,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 429,
-						"y": 412,
+						"x": 24,
+						"y": 23,
 						"width": 34.44138714415331,
 						"height": 31.265940102493783,
 						"originX": 0.5,
@@ -125,10 +125,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 346,
-						"y": 241,
-						"width": 81.77352316556437,
-						"height": 64.250625344372,
+						"x": 137.50838601919176,
+						"y": 248.28881673378413,
+						"width": 63.93296217238381,
+						"height": 67.48479340418291,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -168,8 +168,8 @@
 						}
 					},
 					"world": {
-						"x": 511.58391080042975,
-						"y": 95.58841003218271,
+						"x": 403,
+						"y": 11,
 						"width": 32,
 						"height": 32,
 						"originX": 0.004,
@@ -208,12 +208,157 @@
 						}
 					},
 					"world": {
-						"x": 534.0771304730198,
-						"y": 108.13623411611721,
-						"width": 50.78125,
-						"height": 50.78125,
+						"x": 419,
+						"y": 29,
+						"width": 42.52289288558258,
+						"height": 42.52289288558258,
 						"originX": 0.5230769230769231,
 						"originY": 0.5846153846153846,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 716,
+						"y": 349,
+						"width": 43.37678653829183,
+						"height": 43.51900551054853,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 330,
+						"y": 442,
+						"width": 187.54704672919297,
+						"height": 63.6320337116905,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 576,
+						"y": 155,
+						"width": 49.608467019249844,
+						"height": 49.608467019249844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite7",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 827.4589766778655,
+						"y": 20.59018833691266,
+						"width": 29.687306891398258,
+						"height": 29.687306891398258,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite8",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 907,
+						"y": 39,
+						"width": 38.41874542459709,
+						"height": 19.209372712298546,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

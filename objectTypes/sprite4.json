@@ -1,7 +1,7 @@
 {
-	"name": "asteroid",
+	"name": "Sprite4",
 	"plugin-id": "Sprite",
-	"sid": 367788080921036,
+	"sid": 308849789793465,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,40 +11,40 @@
 			{
 				"frames": [
 					{
-						"width": 360,
-						"height": 380,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4418693,
+						"imageSpriteId": 9882066,
 						"collisionPoly": {
 							"points": [
-								0.08333333333333333,
-								0.07894736842105263,
+								0.724,
 								0.5,
-								0.07894736842105263,
-								0.9138888888888889,
-								0.07894736842105263,
-								0.8583333333333333,
+								0.724,
+								0.72,
 								0.5,
-								0.8583333333333333,
-								0.8657894736842106,
+								0.864,
+								0.28,
+								0.72,
+								0.28,
 								0.5,
-								0.9184210526315789,
-								0.08333333333333333,
-								0.9184210526315789,
-								0.1388888888888889,
-								0.5
+								0.21599999999999997,
+								0.212,
+								0.5,
+								0.036,
+								0.788,
+								0.212
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 296015029353986,
-				"name": "Default",
+				"sid": 166741857444384,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
