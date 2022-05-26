@@ -5,12 +5,11 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-click",
-					"objectClass": "Mouse",
-					"sid": 408897180221809,
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 707001302160778,
 					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked"
+						"key": 32
 					}
 				}
 			],
