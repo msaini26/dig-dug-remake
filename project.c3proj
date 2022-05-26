@@ -94,7 +94,7 @@
 			"Player",
 			"Bullet",
 			"Mouse",
-			"heart3",
+			"life2",
 			"asteroid",
 			"Sprite",
 			"Backgroundmusic",
@@ -104,7 +104,9 @@
 			"Sprite7",
 			"Sprite8",
 			"TiledBackground2",
-			"Keyboard"
+			"Keyboard",
+			"life3",
+			"life1"
 		],
 		"subfolders": []
 	},

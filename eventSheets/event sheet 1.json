@@ -97,6 +97,11 @@
 					"sid": 807177706406448
 				},
 				{
+					"id": "destroy",
+					"objectClass": "life3",
+					"sid": 404214130187938
+				},
+				{
 					"id": "play",
 					"objectClass": "Backgroundmusic",
 					"sid": 324067930352648,
@@ -160,6 +165,11 @@
 					"id": "destroy",
 					"objectClass": "Player",
 					"sid": 979456634219242
+				},
+				{
+					"id": "destroy",
+					"objectClass": "life3",
+					"sid": 414873270466185
 				}
 			],
 			"sid": 558964956804092
@@ -202,6 +212,11 @@
 					"id": "destroy",
 					"objectClass": "Player",
 					"sid": 706348197736150
+				},
+				{
+					"id": "destroy",
+					"objectClass": "life3",
+					"sid": 248118587898869
 				}
 			],
 			"sid": 652540039329282
@@ -244,6 +259,11 @@
 					"id": "destroy",
 					"objectClass": "Player",
 					"sid": 523195473525941
+				},
+				{
+					"id": "destroy",
+					"objectClass": "life3",
+					"sid": 154804423584206
 				}
 			],
 			"sid": 610261124239810

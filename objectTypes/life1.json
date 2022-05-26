@@ -1,0 +1,57 @@
+{
+	"name": "life1",
+	"plugin-id": "Sprite",
+	"sid": 164217025017557,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1280,
+						"height": 1280,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4560584,
+						"collisionPoly": {
+							"points": [
+								0.09042553191489362,
+								0.099609375,
+								0.5,
+								0.19921875,
+								0.9060283687943262,
+								0.1015625,
+								0.9060283687943262,
+								0.5,
+								0.7269503546099291,
+								0.69921875,
+								0.5,
+								0.998046875,
+								0.2712765957446808,
+								0.69921875,
+								0.09042553191489362,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 718652356957088,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
