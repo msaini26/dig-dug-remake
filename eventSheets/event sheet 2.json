@@ -1,0 +1,31 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 244332316075437,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 950700810052679,
+					"parameters": {
+						"layout": "Dig Dug Levels"
+					}
+				}
+			],
+			"sid": 171672094449957
+		}
+	],
+	"sid": 365927055929101
+}

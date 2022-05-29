@@ -1,0 +1,37 @@
+{
+	"name": "whiteRectangle",
+	"plugin-id": "Sprite",
+	"sid": 758470007522470,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 264,
+						"height": 191,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7388064,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 133317551838211,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
