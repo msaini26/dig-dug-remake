@@ -511,6 +511,17 @@
 						"x": "Player.X",
 						"y": "Player.Y"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 119137792556964,
+					"parameters": {
+						"audio-file": "Collision",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 623688391000823
