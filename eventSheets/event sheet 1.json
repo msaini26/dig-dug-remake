@@ -50,21 +50,6 @@
 			],
 			"actions": [
 				{
-					"id": "pin-to-object-properties",
-					"objectClass": "Player",
-					"sid": 183492734715448,
-					"behaviorType": "Pin",
-					"parameters": {
-						"pin-to": "Sprite",
-						"x": true,
-						"y": true,
-						"angle": false,
-						"width-type": "no",
-						"height-type": "no",
-						"z": false
-					}
-				},
-				{
 					"id": "play",
 					"objectClass": "Backgroundmusic",
 					"sid": 808195840330072,

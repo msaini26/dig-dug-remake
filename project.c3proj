@@ -56,8 +56,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Pin",
-			"name": "Pin",
+			"id": "TileMovement",
+			"name": "Tile movement",
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
@@ -101,14 +101,6 @@
 			"author": "Scirra",
 			"version": "r293.3",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "TileMovement",
-			"name": "Tile movement",
-			"author": "Scirra",
-			"version": "r293.3",
-			"bundled": false
 		}
 	],
 	"uniqueId": "n2i30diet08",
@@ -120,13 +112,10 @@
 			"Mouse",
 			"life2",
 			"asteroid",
-			"Sprite",
 			"Backgroundmusic",
 			"Sprite2",
 			"Sprite3",
 			"Sprite4",
-			"Sprite7",
-			"Sprite8",
 			"TiledBackground2",
 			"Keyboard",
 			"life3",

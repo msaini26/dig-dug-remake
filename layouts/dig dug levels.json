@@ -84,64 +84,6 @@
 					}
 				},
 				{
-					"type": "Sprite7",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 431.56368769271944,
-						"y": 16.264247961539787,
-						"width": 24.445449745737914,
-						"height": 24.445449745737914,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite8",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 556,
-						"y": 11,
-						"width": 38.41874542459709,
-						"height": 19.209372712298546,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "life2",
 					"properties": {
 						"initially-visible": true,
@@ -262,15 +204,15 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Player",
 					"properties": {
-						"initially-visible": false,
+						"initially-visible": true,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
+					"uid": 7,
 					"instanceVariables": {},
 					"behaviors": {
 						"TileMovement": {
@@ -285,41 +227,6 @@
 								"default-controls": true,
 								"isometric": false
 							}
-						}
-					},
-					"world": {
-						"x": 220.28743884680023,
-						"y": 10.543581425392318,
-						"width": 32,
-						"height": 32,
-						"originX": 0.004,
-						"originY": 0.004,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Player",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 7,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pin": {
-							"properties": {
-								"destroy": false
-							}
 						},
 						"BoundToLayout": {
 							"properties": {
@@ -328,8 +235,8 @@
 						}
 					},
 					"world": {
-						"x": 236.28743884680023,
-						"y": 28.54358142539232,
+						"x": 288,
+						"y": 29,
 						"width": 42.52289288558258,
 						"height": 42.52289288558258,
 						"originX": 0.49230769230769234,

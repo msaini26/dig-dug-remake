@@ -6,9 +6,9 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 698632726085051
+			"behaviorId": "TileMovement",
+			"name": "TileMovement",
+			"sid": 732667802127143
 		},
 		{
 			"behaviorId": "bound",
