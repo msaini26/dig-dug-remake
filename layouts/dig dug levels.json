@@ -187,72 +187,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 23.9654172164506,
-						"y": 220.35813811231247,
-						"width": 174.26924161863468,
-						"height": 58.744983007947035,
+						"x": 482.81563433034535,
+						"y": 43.268089703705954,
+						"width": 32,
+						"height": 32,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "asteroid",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {
-						"Pathfinding": {
-							"properties": {
-								"cell-size": 30,
-								"cell-border": -1,
-								"obstacles": "solids",
-								"max-speed": 200,
-								"acceleration": 1000,
-								"deceleration": 2000,
-								"rotate-speed": 135,
-								"rotate-object": true,
-								"diagonals": true,
-								"enabled": true
-							}
-						},
-						"8Direction": {
-							"properties": {
-								"max-speed": 100,
-								"acceleration": 450,
-								"deceleration": 500,
-								"directions": "dir-8",
-								"set-angle": "no",
-								"default-controls": false,
-								"enabled": true
-							}
-						},
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						}
-					},
-					"world": {
-						"x": 55.03988834661283,
-						"y": 249.3748689782186,
-						"width": 50.1195457352644,
-						"height": 52.90396494277909,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -392,8 +332,8 @@
 						"y": 28.54358142539232,
 						"width": 42.52289288558258,
 						"height": 42.52289288558258,
-						"originX": 0.5076923076923077,
-						"originY": 0.5769230769230769,
+						"originX": 0.49230769230769234,
+						"originY": 0.5461538461538461,
 						"color": [
 							1,
 							1,
@@ -421,6 +361,66 @@
 						"y": 149,
 						"width": 49.608467019249844,
 						"height": 49.608467019249844,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "asteroid",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pathfinding": {
+							"properties": {
+								"cell-size": 30,
+								"cell-border": -1,
+								"obstacles": "solids",
+								"max-speed": 200,
+								"acceleration": 1000,
+								"deceleration": 2000,
+								"rotate-speed": 135,
+								"rotate-object": true,
+								"diagonals": true,
+								"enabled": true
+							}
+						},
+						"8Direction": {
+							"properties": {
+								"max-speed": 100,
+								"acceleration": 450,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
+					"world": {
+						"x": 56.97615692313098,
+						"y": 255.67750388861097,
+						"width": 50.1195457352644,
+						"height": 52.90396494277909,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

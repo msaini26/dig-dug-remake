@@ -17,7 +17,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Player",
-					"sid": 857220488212934,
+					"sid": 620027894556862,
 					"parameters": {
 						"object": "Bullet",
 						"layer": "0",
@@ -607,6 +607,33 @@
 				}
 			],
 			"sid": 265348315643728
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 606139187530792,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 754015659765172,
+					"parameters": {
+						"object": "TiledBackground2",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 309542884630899
 		}
 	],
 	"sid": 201947246964992
