@@ -135,7 +135,10 @@
 	"layouts": {
 		"items": [
 			"Title Screen",
-			"Dig Dug Levels"
+			"Dig Dug Levels",
+			"Two Lives",
+			"One Live",
+			"End Screen"
 		],
 		"subfolders": []
 	},
