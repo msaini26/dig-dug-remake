@@ -6,9 +6,9 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 698632726085051
+			"behaviorId": "TileMovement",
+			"name": "TileMovement",
+			"sid": 732667802127143
 		},
 		{
 			"behaviorId": "bound",
@@ -24,8 +24,8 @@
 					{
 						"width": 130,
 						"height": 130,
-						"originX": 0.5076923076923077,
-						"originY": 0.5769230769230769,
+						"originX": 0.49230769230769234,
+						"originY": 0.5461538461538461,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -54,8 +54,8 @@
 						"imagePoints": [
 							{
 								"name": "Image Point 1",
-								"x": -0.48005698005698005,
-								"y": 0.6941747572815534
+								"x": 0.5769230769230769,
+								"y": 0.16153846153846155
 							}
 						],
 						"duration": 1

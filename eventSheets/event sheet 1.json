@@ -17,7 +17,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Player",
-					"sid": 857220488212934,
+					"sid": 620027894556862,
 					"parameters": {
 						"object": "Bullet",
 						"layer": "0",
@@ -49,21 +49,6 @@
 				}
 			],
 			"actions": [
-				{
-					"id": "pin-to-object-properties",
-					"objectClass": "Player",
-					"sid": 183492734715448,
-					"behaviorType": "Pin",
-					"parameters": {
-						"pin-to": "Sprite",
-						"x": true,
-						"y": true,
-						"angle": false,
-						"width-type": "no",
-						"height-type": "no",
-						"z": false
-					}
-				},
 				{
 					"id": "play",
 					"objectClass": "Backgroundmusic",
@@ -618,6 +603,114 @@
 				}
 			],
 			"sid": 265348315643728
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 606139187530792,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 754015659765172,
+					"parameters": {
+						"object": "TiledBackground2",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 309542884630899
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 965809031744794,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 587380709755232,
+					"parameters": {
+						"object": "TiledBackground2",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 259493678059325
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 302116985193596,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 520888662639670,
+					"parameters": {
+						"object": "TiledBackground2",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 598576313322418
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 421687943162979,
+					"parameters": {
+						"key": 40
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Player",
+					"sid": 825539745090837,
+					"parameters": {
+						"object": "TiledBackground2",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 695656325740693
 		}
 	],
 	"sid": 201947246964992
