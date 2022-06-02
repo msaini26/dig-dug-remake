@@ -53,9 +53,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 223,
-						"y": 343,
+						"y": 366.5,
 						"width": 284,
-						"height": 327,
+						"height": 374,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -71,7 +71,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Move player (eyes) left, right, up, down arrow keys\n\nDig as much as you can to earn points while avoiding mirrors and people staring you down\n\nThis is a metaphorical remake of the classic Dig Dug game\n\nClick anywhere to begin!",
+						"text": "Move player (eyes) left, right, up, down arrow keys\n\nDig as much as you can to earn points while avoiding mirrors and people staring you down\n\nThis is a metaphorical remake of the classic Dig Dug game\n\nClick anywhere to begin!\n\n\nGame created by Mansi Saini, Rebecca Zhao, and Christine Li",
 						"enable-bbcode": true,
 						"font": "Rockwell",
 						"size": 14,
@@ -96,8 +96,8 @@
 					"world": {
 						"x": 91,
 						"y": 192,
-						"width": 247,
-						"height": 300,
+						"width": 266,
+						"height": 354,
 						"originX": 0,
 						"originY": 0,
 						"color": [
