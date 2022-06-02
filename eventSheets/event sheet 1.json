@@ -410,9 +410,17 @@
 			],
 			"actions": [
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 862179739408237,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
 					"id": "set-angle-of-motion",
 					"objectClass": "Bullet",
-					"sid": 129682437660355,
+					"sid": 846987956262358,
 					"behaviorType": "Bullet",
 					"parameters": {
 						"angle": "180"
