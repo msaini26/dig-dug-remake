@@ -791,6 +791,17 @@
 					"parameters": {
 						"layout": "Winning Screen"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Backgroundmusic",
+					"sid": 757737382995062,
+					"parameters": {
+						"audio-file": "Winning",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 991752773667561
