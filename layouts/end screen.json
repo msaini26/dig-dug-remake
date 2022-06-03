@@ -1,5 +1,5 @@
 {
-	"name": "Title Screen",
+	"name": "End Screen",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -19,7 +19,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 33,
+					"uid": 29,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -48,14 +48,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 34,
+					"uid": 40,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 223,
-						"y": 366.5,
+						"y": 242.5,
 						"width": 284,
-						"height": 374,
+						"height": 126,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -71,7 +71,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Move player (eyes) left, right, up, down arrow keys\n\nDig as much as you can to earn points while avoiding mirrors and people staring you down\n\nThis is a metaphorical remake of the classic Dig Dug game\n\nClick anywhere to begin!\n\n\nGame created by Mansi Saini, Rebecca Zhao, and Christine Li",
+						"text": "Sorry, you lost the game.\n\nThanks for playing!",
 						"enable-bbcode": true,
 						"font": "Rockwell",
 						"size": 14,
@@ -90,14 +90,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 35,
+					"uid": 41,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 91,
 						"y": 192,
-						"width": 266,
-						"height": 354,
+						"width": 247,
+						"height": 95,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -119,7 +119,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 36,
+					"uid": 42,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -140,7 +140,7 @@
 					}
 				}
 			],
-			"sid": 150278188338347,
+			"sid": 350666992034198,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -169,7 +169,7 @@
 			"global": false
 		}
 	],
-	"sid": 583123580722281,
+	"sid": 784264369471541,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 450,
