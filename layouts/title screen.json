@@ -71,7 +71,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Move player (eyes) left, right, up, down arrow keys\n\nDig as much as you can to earn points while avoiding mirrors and people staring you down\n\nThis is a metaphorical remake of the classic Dig Dug game\n\nClick anywhere to begin!\n\n\nGame created by Mansi Saini, Rebecca Zhao, and Christine Li",
+						"text": "Move player (eyes) left, right, up, down arrow keys\n\n\nThis is a metaphorical remake of the classic Dig Dug game\n\nClick anywhere to begin!\n\n\nGame created by Mansi Saini, Rebecca Zhao, and Christine Li",
 						"enable-bbcode": true,
 						"font": "Rockwell",
 						"size": 14,
