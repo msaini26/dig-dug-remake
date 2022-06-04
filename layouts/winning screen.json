@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TiledBackground",
+					"type": "colorbackground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -19,7 +19,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 43,
+					"uid": 3,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -53,9 +53,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 223,
-						"y": 242.5,
+						"y": 333.5,
 						"width": 284,
-						"height": 126,
+						"height": 308,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -71,7 +71,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Yay, you won the game! Congrats!!\n\n\nThanks for playing!",
+						"text": "Yay, you won the game! Congrats!!\n\nYou have defeated all your insecurities and the constant judgment to discover a new sense of self appreciation!",
 						"enable-bbcode": true,
 						"font": "Rockwell",
 						"size": 14,
@@ -95,9 +95,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 91,
-						"y": 192,
-						"width": 247,
-						"height": 95,
+						"y": 237,
+						"width": 267,
+						"height": 187,
 						"originX": 0,
 						"originY": 0,
 						"color": [

@@ -656,9 +656,9 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Player",
-					"sid": 754015659765172,
+					"sid": 719251496760571,
 					"parameters": {
-						"object": "TiledBackground2",
+						"object": "Sprite5",
 						"layer": "0",
 						"image-point": "1",
 						"create-hierarchy": false
@@ -683,9 +683,9 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Player",
-					"sid": 587380709755232,
+					"sid": 500597496340200,
 					"parameters": {
-						"object": "TiledBackground2",
+						"object": "Sprite5",
 						"layer": "0",
 						"image-point": "1",
 						"create-hierarchy": false
@@ -710,9 +710,9 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Player",
-					"sid": 520888662639670,
+					"sid": 580640327890294,
 					"parameters": {
-						"object": "TiledBackground2",
+						"object": "Sprite5",
 						"layer": "0",
 						"image-point": "1",
 						"create-hierarchy": false
@@ -737,9 +737,9 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "Player",
-					"sid": 825539745090837,
+					"sid": 780115951277224,
 					"parameters": {
-						"object": "TiledBackground2",
+						"object": "Sprite5",
 						"layer": "0",
 						"image-point": "1",
 						"create-hierarchy": false

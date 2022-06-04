@@ -7,39 +7,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TiledBackground2",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 3,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 527.204289930424,
-						"y": 10.743818559118708,
-						"width": 38.36511237958564,
-						"height": 39.16077874323693,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "TiledBackground",
 					"properties": {
 						"initially-visible": true,

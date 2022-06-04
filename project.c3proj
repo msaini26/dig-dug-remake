@@ -116,13 +116,14 @@
 			"Sprite2",
 			"Sprite3",
 			"Sprite4",
-			"TiledBackground2",
 			"Keyboard",
 			"life3",
 			"life1",
 			"whiteRectangle",
 			"Text",
-			"title"
+			"title",
+			"Sprite5",
+			"colorbackground"
 		],
 		"subfolders": []
 	},
