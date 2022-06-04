@@ -449,36 +449,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-mirrored",
-					"objectClass": "Player",
-					"sid": 736124106989535
-				}
-			],
-			"actions": [
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 862179739408237,
-					"parameters": {
-						"seconds": "0.5"
-					}
-				},
-				{
-					"id": "set-angle-of-motion",
-					"objectClass": "Bullet",
-					"sid": 846987956262358,
-					"behaviorType": "Bullet",
-					"parameters": {
-						"angle": "180"
-					}
-				}
-			],
-			"sid": 475459659637702
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-destroyed",
 					"objectClass": "Player",
 					"sid": 958026504977327
@@ -499,6 +469,15 @@
 					"sid": 532559357957263,
 					"parameters": {
 						"which": "next"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 980494775232095,
+					"parameters": {
+						"variable": "EnemyCount",
+						"value": "0"
 					}
 				}
 			],
@@ -805,6 +784,32 @@
 				}
 			],
 			"sid": 991752773667561
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Bullet",
+					"sid": 244080584409374
+				},
+				{
+					"id": "is-mirrored",
+					"objectClass": "Player",
+					"sid": 287425454147889
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Bullet",
+					"sid": 348300237190752,
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 689529326994329
 		}
 	],
 	"sid": 201947246964992
