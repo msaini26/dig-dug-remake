@@ -3,6 +3,16 @@
 	"events": [
 		{
 			"eventType": "variable",
+			"name": "layout",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 938291401430210
+		},
+		{
+			"eventType": "variable",
 			"name": "EnemyCount",
 			"type": "number",
 			"initialValue": "0",
@@ -487,6 +497,14 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 116110574322234,
+					"parameters": {
+						"variable": "layout"
+					}
+				},
+				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
 					"sid": 511594080769831,
@@ -553,7 +571,7 @@
 				{
 					"id": "on-path-found",
 					"objectClass": "asteroid",
-					"sid": 300004255378041,
+					"sid": 924740603115809,
 					"behaviorType": "Pathfinding"
 				}
 			],
@@ -570,6 +588,14 @@
 		{
 			"eventType": "block",
 			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 502045086252031,
+					"parameters": {
+						"variable": "layout"
+					}
+				},
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",

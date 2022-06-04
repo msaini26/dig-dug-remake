@@ -22,6 +22,15 @@
 					"parameters": {
 						"layout": "Dig Dug Levels"
 					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 679823713916423,
+					"parameters": {
+						"variable": "layout",
+						"value": "true"
+					}
 				}
 			],
 			"sid": 171672094449957
