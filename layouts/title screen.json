@@ -111,7 +111,7 @@
 					}
 				},
 				{
-					"type": "title",
+					"type": "other",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -119,14 +119,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 36,
+					"uid": 20,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 225,
-						"y": 93,
-						"width": 396.3812863129578,
-						"height": 44.27250160647666,
+						"x": 230,
+						"y": 94,
+						"width": 270.97073017582886,
+						"height": 59.600533199731586,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

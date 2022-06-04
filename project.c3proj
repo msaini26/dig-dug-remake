@@ -123,7 +123,8 @@
 			"Text",
 			"title",
 			"Sprite5",
-			"colorbackground"
+			"colorbackground",
+			"other"
 		],
 		"subfolders": []
 	},
